@@ -1,0 +1,205 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+}
+li, a{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    color: black;
+    text-decoration: none;
+}
+header{
+    display: flex;
+    justify-content: flex-end;
+    align-items: start;
+    padding: 15px 10%;
+}
+nav{
+    margin-right:310px;
+}
+.logo{
+    cursor: pointer;
+    margin-left: -125px;
+    margin-top: -30px;
+    width: 100px;
+
+}
+
+.links{
+    list-style: none;
+}
+.links li{
+    display: inline-block;
+    padding: 0px 15px;
+}
+.links li a{
+    transition: all 0.3s ease 0s;
+}
+.links li a:hover{
+    color: #0088a9;
+}
+.red{
+    color: red;
+}
+
+/*екыншы нав*/
+
+.secondnav{
+    margin-right:-170px;
+    
+}
+.links2{
+    list-style: none;
+}
+.links2 li{
+    display: inline-block;
+    padding: 0px 0px;
+}
+.links2 li a{
+    transition: all 0.3s ease 0s;
+}
+.links2 li a:hover{
+    color: #0088a9;
+}
+.blue{
+    color: blue;
+}
+/*ушыншы*/
+.links3{
+    list-style: none;
+    padding: 5px;
+}
+.links3 li{
+    display: inline-block;
+    padding: 0px 0px;
+}
+.links3 li a{
+    transition: all 0.3s ease 0s;
+}
+.links2 li a:hover{
+    color: red;
+}
+.photo1 {
+    display: grid;
+    place-content: center;
+    padding: 10px;
+}
+.texts {
+    text-align: left;
+    padding-top: 80px;
+    padding-left: 380px;
+    padding-right: 380px;
+    line-height: 1.5;
+    font-size: 18px;
+}
+.texts p{
+    margin-top: 10px;
+}
+.womans {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.woman1 {
+    padding: 120px;
+    width: 700px;
+}
+
+.woman2 {
+    width: 820px;
+    padding-top: 170px;
+}
+video {
+    padding-top: 60px;
+    padding-left: 400px;
+    padding-right: 400px;
+}
+.name {
+    padding-left: 400px;
+}
+.threephoto {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    padding: 120px;
+}
+.photoobig{
+    padding: 120px;
+}
+
+
+.twoophoto {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    padding-top: 120px;
+}
+.two1 {
+    padding: 120px;
+}
+
+.boxx {
+    display: grid;
+    margin-top: 120px;
+    margin-left: 120px;
+    grid-template-columns: 1fr 1fr;
+    background-color: cornflowerblue;
+    width: 1200px;
+    height: 600px;
+}
+
+.left img {
+    width: 825px;
+    height: 700px;
+}
+
+.right {
+    padding: 150px;
+    display: grid;
+    place-content: center;
+    color: white;
+}
+
+.right a {
+    text-decoration: none;
+    font-size: 30px;
+}
+.footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+    padding: 80px 40px;
+}
+
+.footer .column {
+    display: grid;
+    gap: 20px;
+}
+
+.footer ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer ul li {
+    margin-bottom: 10px;
+}
+
+.footer ul li a {
+    text-decoration: none;
+    color: #333;
+}
+
+.footer h1, .footer h4 {
+    margin-bottom: 10px;
+}
+
+.footer .icons {
+    display: flex;
+    gap: 15px;
+}
+
+.footer .icons a img {
+    width: 30px;
+    height: auto;
+}
